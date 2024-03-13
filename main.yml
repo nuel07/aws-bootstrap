@@ -114,7 +114,7 @@ Resources:
       Ec2TagFilters: 
         - Key: aws:cloudformation:stack-name
           Type: KEY_AND_VALUE
-          Value: !Ref AWS::StackName 
+          Value: !Ref AWS::StackName
 
   Pipeline:
     Type: AWS::CodePipeline::Pipeline
